@@ -2,7 +2,7 @@ package Lab8;
 
 import java.util.Scanner;
 
-class stack{
+class Stack{
     int top=0;
     char[] c;
     void push(char ch){
@@ -29,7 +29,7 @@ public static boolean judge(char c1,char c2){
 
         str=in.nextLine();
 
-        stack s=new stack();
+        Stack s=new Stack();
         s.c=new char[100001];
 
         for (int i = 0; i < str.length(); i++) {
